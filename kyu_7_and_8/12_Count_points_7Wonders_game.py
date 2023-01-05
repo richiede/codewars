@@ -35,7 +35,6 @@ def seven_wonders_science(compasses, gears, tablets):
 	    dis_score = 0
 	else:
 	    dis_score = talley_list[0] * 7
-	amount = 0
 	score = sum([x**2 for x in talley_list])
 	final_score = dis_score + score
 	return(final_score)
